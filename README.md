@@ -111,6 +111,30 @@ book-review-app/
 
 ---
 
+### ▶️ What Happens When You Run `mvn spring-boot:run`?
+
+1. **Spring Boot starts up your app**
+   - It scans your project for annotations like `@SpringBootApplication`, `@Controller`, `@Service`, etc.
+
+2. **It wires everything together**
+   - Spring automatically connects your classes, like controllers and services — no manual setup needed.
+
+3. **It starts an embedded web server**
+   - Usually Tomcat, running locally on port `8080`
+
+4. **It listens for web requests**
+   - Like when you visit `http://localhost:8080` in your browser
+
+5. **It routes the request to your code**
+   - The controller method (`@GetMapping("/")`) runs, loads data, and returns a view
+
+6. **Thymeleaf renders the HTML**
+   - It fills in the dynamic parts using your model data and sends the final HTML to the browser
+
+✅ Result: your app is running like magic — no WAR file, no external Tomcat, no config headaches.
+
+---
+
 ## 💡 What Can You Modify?
 
 Here are some ideas:
