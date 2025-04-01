@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Book Similarity Explorer</title>
+</head>
+<body>
+<h1>Book Review Similarity Explorer</h1>
+
+<form method="get" action="/">
+    <label>Select a book:</label>
+    <select name="id" onchange="this.form.submit()">
+        <option th:each="b : ${books}" th:value="${b.id}" th:text="${b}"></option>
+    </select>
+</form>
+
+<div th:if="${selected}">
+    <h2 th:text="${selected.title}">Title</h2>
+    <p><strong>Author:</strong> <span th:text="${selected.author}"></span></p>
+    <p><strong>Review:</strong></p>
+    <p th:text="${selected.review}"></p>
+
+    <h3>Top 3 Similar Books:</h3>
+    <ul>
+        <li th:each="s : ${similar}" th:text="${s.toString()}"></li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "review": "A guide to writing clean, maintainable software.",
+    "embedding": [0.1, 0.2, 0.3]
+  },
+  {
+    "id": "2",
+    "title": "The Pragmatic Programmer",
+    "author": "Andy Hunt & Dave Thomas",
+    "review": "Covers best practices and practical advice for developers.",
+    "embedding": [0.11, 0.21, 0.29]
+  },
+  {
+    "id": "3",
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "review": "Improving the design of existing code.",
+    "embedding": [0.12, 0.19, 0.31]
+  },
+  {
+    "id": "4",
+    "title": "Design Patterns",
+    "author": "Erich Gamma et al.",
+    "review": "A catalog of common solutions to object-oriented design problems.",
+    "embedding": [0.4, 0.5, 0.6]
+  }
+]
