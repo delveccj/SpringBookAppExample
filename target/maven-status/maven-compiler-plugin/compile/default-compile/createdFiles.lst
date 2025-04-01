@@ -1,6 +1,0 @@
-edu/canisius/csc/lsp/model/Book.class
-edu/canisius/csc/lsp/controller/BookController.class
-edu/canisius/csc/lsp/service/SimilarityService.class
-edu/canisius/csc/lsp/storage/BookRepository$1.class
-edu/canisius/csc/lsp/storage/BookRepository.class
-edu/canisius/csc/lsp/BookApp.class
