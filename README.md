@@ -135,18 +135,6 @@ book-review-app/
 
 ---
 
-## 💡 What Can You Modify?
-
-Here are some ideas:
-- Add new books to `books.json`
-- Show similarity scores in the UI
-- Style the page with CSS
-- Add a search box or sort filter
-- Replace books with **consumer complaints**
-- Add a REST API layer (extra credit!)
-
----
-
 ## ❓ Troubleshooting
 
 ### Getting a `javax.annotation` error?
