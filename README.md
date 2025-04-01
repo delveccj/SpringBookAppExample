@@ -1,5 +1,3 @@
-## 🧾 Student-Centric `README.md` with Sequence Diagram
-
 # 📚 Book Review Similarity App
 
 Welcome to the **Book Review Similarity App**!  
